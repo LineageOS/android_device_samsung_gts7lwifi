@@ -9,7 +9,7 @@ include device/samsung/sm8250-common/BoardConfigCommon.mk
 DEVICE_PATH := device/samsung/gts7lwifi
 
 # Display
-TARGET_SCREEN_DENSITY := 350
+TARGET_SCREEN_DENSITY := 320
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/samsung/gts7lwifi.config
