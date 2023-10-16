@@ -3,6 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_IS_TABLET := true
+
 # Inherit from sm8250-common
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
 
