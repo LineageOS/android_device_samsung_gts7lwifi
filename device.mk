@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 2560
 
+# Display
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.primary_display_orientation=ORIENTATION_90
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
