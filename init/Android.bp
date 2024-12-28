@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.gts7lwifi.rc",
+    src: "init.gts7lwifi.rc",
+    sub_dir: "init/hw",
+    soc_specific: true,
+}
