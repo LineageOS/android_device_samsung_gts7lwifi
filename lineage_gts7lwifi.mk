@@ -22,6 +22,8 @@ PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# Vendor fingerprint
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="gts7lwifixx-user 11 RP1A.200720.012 T870XXS7DXE3 release-keys"
+
 BUILD_FINGERPRINT := "samsung/gts7lwifixx/gts7lwifi:11/RP1A.200720.012/T870XXS7DXE3:user/release-keys"
-PRIVATE_BUILD_DESC := "gts7lwifixx-user 11 RP1A.200720.012 T870XXS7DXE3 release-keys"
