@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-lineage
 
 # Sensors
 PRODUCT_COPY_FILES += \
