@@ -5,5 +5,9 @@ aaudio.mmap_exclusive_policy=1
 # Bluetooth
 bluetooth.device.default_name=Galaxy Tab S7
 
+# Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1636|325|130|local:4630947232161729153
+
 # Radio
 ro.carrier=wifi-only
