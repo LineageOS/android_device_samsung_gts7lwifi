@@ -6,5 +6,9 @@ ro.audio.monitorRotation=true
 # Bluetooth
 bluetooth.device.default_name=Galaxy Tab S7
 
+# Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1636|295|130|local:4630947232161729153
+
 # Radio
 ro.carrier=wifi-only
