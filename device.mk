@@ -1,9 +1,10 @@
 #
-# SPDX-FileCopyrightText: 2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
 TARGET_IS_TABLET := true
+TARGET_IS_WIFI-ONLY := true
 
 # Inherit from sm8250-common
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
