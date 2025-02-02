@@ -110,6 +110,25 @@ vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
+# GNSS
+vendor/bin/hw/gps.sh
+vendor/bin/hw/gpsd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+vendor/etc/gnss/deleteLogCommands
+vendor/etc/gnss/gps.cer
+vendor/etc/gnss/gps.debug.xml
+vendor/etc/gnss/gps.gsi.xml
+vendor/etc/gnss/gps.issuetracker.xml
+vendor/etc/gnss/gps.xml
+vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so;FIX_SONAME
+vendor/lib64/hw/flp.default.so;FIX_SONAME
+vendor/lib64/hw/gps.default.so;FIX_SONAME
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
+vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+
 # Sensors configs
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/ak991x_polling_0.json
