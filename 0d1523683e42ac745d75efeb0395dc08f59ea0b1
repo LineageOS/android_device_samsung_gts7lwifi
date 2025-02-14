@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b593180_f98be3b4",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 10
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-02-14T16:16:15Z",
+      "side": 1,
+      "message": "Not needed with aidl hal.",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 23,
+        "endChar": 41
+      },
+      "revId": "0d1523683e42ac745d75efeb0395dc08f59ea0b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
