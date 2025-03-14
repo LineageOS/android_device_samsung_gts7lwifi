@@ -186,3 +186,7 @@ vendor/etc/sensors/config/veml3235_1.json
 vendor/etc/sensors/config/veml3328_0.json
 vendor/etc/sensors/config/veml3328_1.json
 vendor/etc/sensors/sns_reg_config
+
+# Sensors
+vendor/lib64/sensors.grip.so
+vendor/lib64/sensors.ssc.so
