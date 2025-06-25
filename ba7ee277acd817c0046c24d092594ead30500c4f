@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bb7d4f1_49c84f00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-25T21:37:23Z",
+      "side": 1,
+      "message": "I missed to pick this to gts7lwifi, but basically due to the fact that my S7 has broken S-pen sensor and I couldn\u0027t test.",
+      "revId": "ba7ee277acd817c0046c24d092594ead30500c4f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
