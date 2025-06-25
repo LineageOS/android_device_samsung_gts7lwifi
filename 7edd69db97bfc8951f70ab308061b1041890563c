@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd43dba9_8ecf2102",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35527
+      },
+      "writtenOn": "2025-06-25T15:07:51Z",
+      "side": 1,
+      "message": "Reference: https://github.com/gta4xlve-dev/android_device_samsung_gta4xlveu/commits/lineage-22.2/configs/idc",
+      "revId": "7edd69db97bfc8951f70ab308061b1041890563c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
