@@ -25,6 +25,10 @@ TARGET_SCREEN_WIDTH := 2560
 # GMS
 WITH_GMS_COMMS_SUITE := false
 
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/sec_e-pen.idc
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7lwifi.rc
