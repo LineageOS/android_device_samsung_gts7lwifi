@@ -29,10 +29,6 @@ WITH_GMS_COMMS_SUITE := false
 PRODUCT_PACKAGES += \
     init.gts7lwifi.rc
 
-# Input configs
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/idc/sec_e-pen.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/sec_e-pen.idc
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
