@@ -67,6 +67,7 @@ vendor/lib64/camera/components/com.ss.stats.pdlib.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 
 # Camera features
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
@@ -82,7 +83,6 @@ vendor/lib64/com.qti.feature2.rt.so
 vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
-vendor/lib64/hw/com.qti.chi.override.so
 
 # Camera sensors
 vendor/lib64/camera/com.samsung.sensor.s5k3m5.so
@@ -147,8 +147,8 @@ vendor/etc/sensors/config/kona_veml3235_0.json
 vendor/etc/sensors/config/kona_veml3235_1.json
 vendor/etc/sensors/config/kona_veml3328_0.json
 vendor/etc/sensors/config/kona_veml3328_1.json
-vendor/etc/sensors/config/lsm6dso_0_8g.json
 vendor/etc/sensors/config/lsm6dso_0.json
+vendor/etc/sensors/config/lsm6dso_0_8g.json
 vendor/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_1.json
 vendor/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_2.json
 vendor/etc/sensors/config/sns_amd.json
