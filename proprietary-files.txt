@@ -102,6 +102,9 @@ vendor/firmware/CAMERA_ICP.elf
 # Display calibration data
 vendor/etc/qdcm_calib_data_ss_dsi_panel_NT36523_PPA957DB1_WQXGA.xml
 
+# Feature
+vendor/etc/floating_feature.xml
+
 # Fingerprint
 vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
