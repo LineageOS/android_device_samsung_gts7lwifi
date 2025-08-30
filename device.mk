@@ -45,8 +45,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Touch features
-$(call soong_config_set,samsungTouchVars,enableTouchscreenGestures,false)
-
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/gts7lwifi/gts7lwifi-vendor.mk)
