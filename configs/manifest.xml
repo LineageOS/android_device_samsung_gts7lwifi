@@ -9,6 +9,18 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl">
+        <name>vendor.lineage.touch</name>
+        <version>1</version>
+        <interface>
+            <name>IGloveMode</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IHighTouchPollingRate</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.gnss</name>
         <transport>hwbinder</transport>
