@@ -29,6 +29,10 @@ WITH_GMS_COMMS_SUITE := false
 PRODUCT_PACKAGES += \
     init.gts7lwifi.rc
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay-service.sdm
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
