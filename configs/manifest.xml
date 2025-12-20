@@ -10,6 +10,14 @@
         </interface>
     </hal>
     <hal format="aidl">
+        <name>vendor.lineage.livedisplay</name>
+        <version>1</version>
+        <interface>
+            <name>IAdaptiveBacklight</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
         <name>vendor.lineage.touch</name>
         <version>1</version>
         <interface>
